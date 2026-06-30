@@ -409,7 +409,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="1YwDUuiyhSY9vvlOYEWQ" name="Страница-3">
-    <mxGraphModel dx="1148" dy="1916" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="328" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -537,21 +537,27 @@
           <mxGeometry height="80" width="150" x="435" y="20" as="geometry" />
         </mxCell>
         <mxCell id="XH7cmUg5GbJehifm4ObC-5" parent="XH7cmUg5GbJehifm4ObC-2" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;align=center;verticalAlign=middle;" value="&lt;span style=&quot;font-family: &amp;quot;Segoe UI&amp;quot;, Arial, sans-serif; font-size: 12.5px; text-align: start; text-wrap-mode: nowrap;&quot;&gt;GET /customers/profile&lt;/span&gt;" vertex="1">
-          <mxGeometry height="80" width="150" x="830" y="20" as="geometry" />
-        </mxCell>
-        <mxCell id="XH7cmUg5GbJehifm4ObC-3" parent="XH7cmUg5GbJehifm4ObC-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Customer Service" vertex="1">
-          <mxGeometry height="260" width="2910" x="20" y="140" as="geometry" />
-        </mxCell>
-        <mxCell id="XH7cmUg5GbJehifm4ObC-10" parent="XH7cmUg5GbJehifm4ObC-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;align=center;verticalAlign=middle;" value="&lt;font face=&quot;Segoe UI, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12.5px; text-wrap-mode: nowrap;&quot;&gt;Получить профиль&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Segoe UI, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12.5px; text-wrap-mode: nowrap;&quot;&gt;клиента&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="150" x="830" y="80" as="geometry" />
-        </mxCell>
-        <mxCell id="XH7cmUg5GbJehifm4ObC-11" parent="XH7cmUg5GbJehifm4ObC-3" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="Customer DB" vertex="1">
-          <mxGeometry height="80" width="70" x="1020" y="70" as="geometry" />
+          <mxGeometry height="80" width="150" x="890" y="30" as="geometry" />
         </mxCell>
         <mxCell id="XH7cmUg5GbJehifm4ObC-26" edge="1" parent="XH7cmUg5GbJehifm4ObC-1" source="XH7cmUg5GbJehifm4ObC-20" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.382;exitY=1.002;exitDx=0;exitDy=0;exitPerimeter=0;" target="XH7cmUg5GbJehifm4ObC-22" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="530" y="-20" as="sourcePoint" />
             <mxPoint x="530" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XH7cmUg5GbJehifm4ObC-3" parent="XH7cmUg5GbJehifm4ObC-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Customer Service" vertex="1">
+          <mxGeometry height="260" width="2910" x="20" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="XH7cmUg5GbJehifm4ObC-10" parent="XH7cmUg5GbJehifm4ObC-3" style="points=[[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0.25,0],[1,0.5,0],[1,0.75,0],[0.75,1,0],[0.5,1,0],[0.25,1,0],[0,0.75,0],[0,0.5,0],[0,0.25,0]];shape=mxgraph.bpmn.task2;whiteSpace=wrap;rectStyle=rounded;size=10;html=1;container=1;expand=0;collapsible=0;taskMarker=abstract;fontFamily=Helvetica;fontSize=12;fontColor=default;fontStyle=0;align=center;verticalAlign=middle;" value="&lt;font face=&quot;Segoe UI, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12.5px; text-wrap-mode: nowrap;&quot;&gt;Получить профиль&amp;nbsp;&lt;/span&gt;&lt;/font&gt;&lt;div&gt;&lt;font face=&quot;Segoe UI, Arial, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 12.5px; text-wrap-mode: nowrap;&quot;&gt;клиента&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="150" x="890" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="XH7cmUg5GbJehifm4ObC-11" parent="XH7cmUg5GbJehifm4ObC-3" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="Customer DB" vertex="1">
+          <mxGeometry height="80" width="70" x="1100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="XH7cmUg5GbJehifm4ObC-34" edge="1" parent="XH7cmUg5GbJehifm4ObC-3" source="XH7cmUg5GbJehifm4ObC-11" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" target="XH7cmUg5GbJehifm4ObC-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="960" y="20" as="sourcePoint" />
+            <mxPoint x="1120" y="20" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XH7cmUg5GbJehifm4ObC-4" parent="XH7cmUg5GbJehifm4ObC-1" style="swimlane;html=1;startSize=20;horizontal=0;" value="Calculator Service" vertex="1">
@@ -566,10 +572,28 @@
         <mxCell id="XH7cmUg5GbJehifm4ObC-33" parent="XH7cmUg5GbJehifm4ObC-31" style="shape=datastore;html=1;labelPosition=center;verticalLabelPosition=bottom;align=center;verticalAlign=top;" value="" vertex="1">
           <mxGeometry height="100" width="100" x="605" y="80" as="geometry" />
         </mxCell>
+        <mxCell id="XH7cmUg5GbJehifm4ObC-36" edge="1" parent="XH7cmUg5GbJehifm4ObC-1" source="XH7cmUg5GbJehifm4ObC-5" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;" target="XH7cmUg5GbJehifm4ObC-10" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="160" />
+            </Array>
+            <mxPoint x="1010" as="sourcePoint" />
+            <mxPoint x="996" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="XH7cmUg5GbJehifm4ObC-25" edge="1" parent="1" source="xEwU1uJ_r47wHfL1WopQ-2" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="XH7cmUg5GbJehifm4ObC-20" value="">
           <mxGeometry relative="1" width="160" as="geometry">
             <mxPoint x="390" y="640" as="sourcePoint" />
             <mxPoint x="550" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XH7cmUg5GbJehifm4ObC-35" edge="1" parent="1" source="xEwU1uJ_r47wHfL1WopQ-5" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endFill=0;startFill=0;endSize=6;startSize=6;dashed=1;dashPattern=1 4;endArrow=openThin;startArrow=none;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" target="XH7cmUg5GbJehifm4ObC-5" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points">
+              <mxPoint x="960" y="710" />
+            </Array>
+            <mxPoint x="940" y="680" as="sourcePoint" />
+            <mxPoint x="1100" y="680" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
